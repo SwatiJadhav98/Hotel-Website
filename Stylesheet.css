@@ -1,0 +1,306 @@
+body{
+    margin:0px;
+    padding:0px;
+    /* background-image: url("Images/maldvies1.jpg"); */
+    /* background-size: cover; */
+}
+*
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.maindiv{
+    background-image: url("Images/room3.jpg");
+    background-size: cover;
+    height:800px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+/** HEADER DIVISION **/
+.menu
+{
+    background-color: rgba(0, 0, 0, 0.700);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu:hover
+{
+    background-color: black;
+}
+.maindiv .left
+{
+    position: absolute; 
+    left:0px;
+}
+.left a{
+    text-decoration: none;
+    font-size:45px;
+    padding:5px;
+    font-weight:bold;
+}
+#logo1{
+    color:rgba(232, 252, 55, 0.959);
+}
+#logo2{
+    color:rgb(135, 227, 236);
+}
+.center
+{
+    width: 80%;
+    display: flex;
+    align-self: right;
+    justify-content:right;
+    align-items: flex-end;
+    /* border: 1px solid red; */
+}
+.center ul li
+{
+    margin: 20px;
+    float: left;
+    list-style-type: none;
+}
+.center ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.center ul li a:hover{
+    padding: 7px;
+    color:black;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0,0.1s;
+}
+.right
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: white;
+    width:270px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.search
+{
+    height: 25px;
+    width:80%;
+    border:none;
+    background-color: white;
+}
+.searchbtn{
+    border:none;
+    background-color: white;
+    height: 30px;
+    width:10%;
+    cursor: pointer;
+    background-color:white ;
+    color: black;
+}
+.booknow{
+    background-color:rgb(11, 170, 56);
+    border-radius: 10px;
+    border: none;
+    margin:11px 20px 10px 10px;
+    width: 140px;
+    font-size: 17px;
+    height: 38px;
+    color: aliceblue;
+}
+.booknow:hover{
+    cursor: pointer;
+    color: black;
+}
+/** MAIN CONTENT **/
+#h3
+{
+    color:white;
+    float:left;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.welcome{
+    position: relative;
+    top:300px; 
+    margin:auto; 
+    height: 150px;
+    width:500px;
+    color:#e0d4d4;
+    padding: 100px;
+    padding-top: 10px;
+    margin-left: 350px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.600);
+}
+.welcome h3{
+    text-align:left;
+    /* align-items: first baseline; */
+    /* vertical-align: text-top; */
+}
+.views
+{
+    height:550px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+}
+.views h1{
+    text-align: center;
+    font-size: x-large;
+}
+.views img{
+    background-size: cover;
+    height: 300px;
+    width:400px;
+}
+.views p{
+    text-align: center;
+    width: 400px;
+}
+.background_div
+{
+    /* border:1px solid black; */
+    background-color: #e0d4d4;
+    margin-left: 22px;
+    width:97%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-align: center;
+    line-height: 40px;
+}
+.background_div h3{
+    
+    font-size: larger;
+}
+.background_div h4{
+    font-weight: lighter;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.700);
+    width:300px;
+    height:300px;
+    margin:10px;
+    margin-top: 0px;
+}
+.location{
+    background-color: rgba(0, 0, 0, 0.700);
+    width:300px;
+    height:350px;
+    margin: 10px;
+    margin-top: 0px;
+}
+.location img{
+    height:200px;
+    width:100px;
+    text-align:center;
+}
+.booking{
+    background-color: rgba(0, 0, 0, 0.700);
+    width:300px;
+    height:300px;
+    margin: 10px;
+    margin-top: 0px;
+}
+.booking button{
+    background-color:rgb(11, 170, 56);
+    color: aliceblue;
+    font-size:15px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.reviews{
+    font-size: 100;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+.reviews h5{
+    padding: 5px;
+    text-decoration:underline;
+}
+.reviews pre{
+    color:rgba(23, 21, 21, 0.642);
+}
+/** FOOTER DIVISION **/
+.footerdiv
+{
+    position: relative;
+    bottom: 0px;
+    height:80px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.900);
+}
+.footerdiv ul li
+{   
+    display: inline;
+    margin: auto;
+    float: left;  
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 3px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.footerdiv ul li a i{
+    margin: auto;
+    color:white;
+    cursor: pointer;
+}
+.footerdiv .copyright
+{
+    float: right;
+    color:white;
+    margin: 10px 20px 10px 20px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+/* *ABOUT US PAGE* */
+.navigationbar{
+    background-color: rgba(0, 0, 0, 0.700);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus{
+
+    background-image: url('Images/hotelresort.jpg');
+    background-size: cover;
+    /* border: 1px solid black; */
+    height:800px;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.about{
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.600);
+    color:#e0d4d4;
+    height: 500px;
+    width: 80%;
+    padding: 30px;
+}
